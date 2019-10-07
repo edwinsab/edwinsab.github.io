@@ -1,1 +1,26 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="API.css" />
+
+    <title>API Random Generator</title>
+  </head>
+  <body>
+    <div class="wrapper action-control">
+      <h1>Random Generator</h1>
+      <button onclick="GifGenerator()" class="get-gif">
+        Show Me Something
+      </button>
+      <button onclick="JokeGenerator()">Chucking Norris</button>
+
+      <div class="content" id="gif-here">
+        <img id="gif1" src="" />
+      </div>
+      <span id="joke1"></span>
+    </div>
+    <script src="API.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
+</html>
